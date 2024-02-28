@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryAPI", "LibraryAPI\LibraryAPI.csproj", "{204A28D3-AFF1-497B-B8ED-13B5360B9928}"
+Project("{93F67E8F-AD99-491A-B863-557467A21DBC}") = "LibraryAPI.Database", "LibraryAPI.Database\LibraryAPI.Database.csproj", "{93F67E8F-AD99-491A-B863-557467A21DBC}"
+Project("{E47DC7BA-1494-4443-93C3-D45B2EAC6233}") = "LibraryAPI.DTOs", "LibraryAPI.DTOs\LibraryAPI.DTOs.csproj", "{E47DC7BA-1494-4443-93C3-D45B2EAC6233}"
+Project("{DEBE7FA0-D77A-4478-AB0C-767A7CD84BA8}") = "LibraryAPI.Services", "LibraryAPI.Services\LibraryAPI.Services.csproj", "{DEBE7FA0-D77A-4478-AB0C-767A7CD84BA8}"
+Project("{28E47C46-CB5D-4E4D-AA72-5028484BC5E7}") = "LibraryAPI.Exceptions", "LibraryAPI.Exceptions\LibraryAPI.Exceptions.csproj", "{28E47C46-CB5D-4E4D-AA72-5028484BC5E7}"
+Project("{1A159F57-5F34-40DF-9199-FFCC26CF096A}") = "LibraryAPI.Tests", "LibraryAPI.Tests\LibraryAPI.Tests.csproj", "{1A159F57-5F34-40DF-9199-FFCC26CF096A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{204A28D3-AFF1-497B-B8ED-13B5360B9928}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204A28D3-AFF1-497B-B8ED-13B5360B9928}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204A28D3-AFF1-497B-B8ED-13B5360B9928}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204A28D3-AFF1-497B-B8ED-13B5360B9928}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

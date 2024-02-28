@@ -1,0 +1,14 @@
+
+LibraryAPI.Database/obj
+LibraryAPI.Database/bin
+LibraryAPI/obj
+LibraryAPI/logs
+LibraryAPI/bin
+LibraryAPI.DTOs/obj
+LibraryAPI.DTOs/bin
+LibraryAPI.Exceptions/obj
+LibraryAPI.Exceptions/bin
+LibraryAPI.Services/obj
+LibraryAPI.Services/bin
+LibraryAPI.Tests/obj
+LibraryAPI.Tests/bin
