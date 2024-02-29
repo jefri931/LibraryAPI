@@ -13,13 +13,11 @@ namespace LibraryAPI.Controllers
     public class RentalController : BaseController
     {
         private readonly IBookRentalService _rentalService;
-        private readonly ILogger<RentalController> _logger;
         private readonly IMapper _mapper;
         private readonly IOverdueRentalNotificationService _notificationService;
         public RentalController(IMapper mapper, IBookRentalService rentalService, IOverdueRentalNotificationService notificationService, ILogger<RentalController> logger) {
             _mapper = mapper;
             _rentalService = rentalService;
-            _logger = logger;
             _notificationService = notificationService;
         }
 

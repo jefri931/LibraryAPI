@@ -14,7 +14,7 @@ services.AddSwaggerGen();
 services.AddControllers();
 services.AddAutoMapper(config => config.AddProfile<MappingProfile>());
 services.AddLibraryAPIDbContext(builder.Configuration);
-services.AddJwtAuth(builder.Configuration);
+services.AddLibraryJwtAuth(builder.Configuration);
 services.AddLibraryServices();
 
 var app = builder.Build();

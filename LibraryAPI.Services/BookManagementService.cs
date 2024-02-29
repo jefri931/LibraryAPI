@@ -29,6 +29,7 @@ namespace LibraryAPI.Services
             if(userId != null) {
                 books = books.Where(b => b.PublisherId == userId);
             }
+            
             return await books.ToListAsync();
         }
 

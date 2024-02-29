@@ -12,8 +12,6 @@ namespace LibraryAPI.Database
             var basePath = Directory.GetCurrentDirectory();
             var parentDirectory = Directory.GetParent(basePath).FullName;
             var appSettingsPath = Path.Combine(parentDirectory, "LibraryAPI");
-
-            
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(appSettingsPath)
                 .AddJsonFile("appsettings.json")
@@ -21,7 +19,6 @@ namespace LibraryAPI.Database
 
             var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
             optionsBuilder.UseNpgsql(configuration.GetSection("DefaultConnection").Value);
-
             return new ApplicationDbContext(optionsBuilder.Options);
         }
     }

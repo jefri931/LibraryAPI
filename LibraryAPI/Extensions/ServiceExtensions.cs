@@ -11,7 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 namespace LibraryAPI.Extensions {
     public static class ServiceExtensions
     {
-        public static void AddJwtAuth(this IServiceCollection services, ConfigurationManager configuration)
+        public static void AddLibraryJwtAuth(this IServiceCollection services, ConfigurationManager configuration)
         {
             services.AddAuthentication(options => {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;

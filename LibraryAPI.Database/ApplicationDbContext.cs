@@ -47,17 +47,14 @@ namespace LibraryAPI.Database {
             #endregion
 
             #region Page
-
             modelBuilder.Entity<Page>()
                 .HasKey(p => new { p.BookId, p.PageNumber });
             modelBuilder.Entity<Page>()
                 .Property(p => p.Content)
                 .IsRequired();
-            
             #endregion
 
             #region Rental
-
             modelBuilder.Entity<Rental>()
                 .HasKey(b => b.Id);
             modelBuilder.Entity<Rental>()
@@ -79,7 +76,6 @@ namespace LibraryAPI.Database {
             modelBuilder.Entity<Rental>()
                 .Property(p => p.IsReturned)
                 .HasDefaultValue(false);
-
             #endregion
         }
     }
